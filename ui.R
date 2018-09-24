@@ -9,7 +9,7 @@ ui <- dashboardPage(skin = "blue",
                         menuItem("Compare", tabName = "compare", icon = icon("signal")), 
                         menuItem("Notes", tabName = "notes", icon = icon("sticky-note")), 
                         menuItem("Source Code", icon = icon("file-code-o"), 
-                                 href = "https://github.com/lyndalin")
+                                 href = "https://github.com/lyndalin/phds-app")
                       )
                     ),
                     dashboardBody(
